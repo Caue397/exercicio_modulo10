@@ -22,7 +22,7 @@ public class Main {
         return (nota1 + nota2 + nota3 + nota4) / 4;
     }
 
-    // Não utilizei if, pois o 'SwitchCase' não suporta o tipo double
+    // Utilizei if, pois o 'SwitchCase' não suporta o tipo double
     public static String verificaMedia(double nota) {
         if (nota > 10 || nota < 0) {
             return "Nota inválida. Digite uma nota de 0 a 10";
